@@ -11,11 +11,11 @@ npm install react-native-identy-module
 ## Usage
 
 ```js
-import { multiply } from "react-native-identy-module";
+import { getFingerprint } from "react-native-identy-module";
 
 // ...
 
-const result = await multiply(3, 7);
+const data = await getFingerprint();
 ```
 
 ## Contributing
