@@ -20,3 +20,7 @@ const IdentyModule = NativeModules.IdentyModule
 export function multiply(a: number, b: number): Promise<number> {
   return IdentyModule.multiply(a, b);
 }
+
+export function getFingerprint(): Promise<number> {
+    return IdentyModule.getFingerprint();
+}
