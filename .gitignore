@@ -64,4 +64,4 @@ android/keystores/debug.keystore
 lib/
 
 # example app
-example/*
+example/
