@@ -22,12 +22,14 @@ __instructions for android only__
 2. Then copy the *XXX.lic* file to src/main/assets folder of your application
 
 3. Modify the global gradle file **build.gradle** add jcenter() and identy maven repositories with your username and password provided by the [identy.io](https://identy.io/).
+
 ![gradleBuild](https://user-images.githubusercontent.com/19475836/156916746-c96e8c7d-47f7-4d9f-a2af-4390261f0410.PNG)
 
 4. Add application memory setting on **gradle.properties** file insert code
 ```
 org.gradle.jvmargs=-Xmx1536m
-```![gradleProperties](https://user-images.githubusercontent.com/19475836/156916775-33cde607-83ca-4855-8e5e-f55796d491d1.PNG)
+```
+![gradleProperties](https://user-images.githubusercontent.com/19475836/156916775-33cde607-83ca-4855-8e5e-f55796d491d1.PNG)
 
 ## Supported Platforms
 - Android
