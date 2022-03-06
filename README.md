@@ -1,6 +1,7 @@
-# React-Native Library for Identy SDK
+# React-Native Library For Identy SDK
 
 React-Native library to integrate Identy SDK
+
 Package name: **react-native-identy-module**
 
 ## Installation
@@ -17,20 +18,15 @@ __instructions for android only__
 
 1. First, you need to register on [identy.io](https://identy.io/) website and acquire license file *XXX.lic*
 
-
 2. Then copy the *XXX.lic* file to src/main/assets folder of your application
 
+3. Modify the global gradle file **build.gradle** add jcenter() and identy maven repositories with your username and password provided by the [identy.io](https://identy.io/).
+![gradleBuild](https://user-images.githubusercontent.com/19475836/156916746-c96e8c7d-47f7-4d9f-a2af-4390261f0410.PNG)
 
-3. Modify the **CaptureFinger.java** file. Change the variable `String licenseFile` with the name of your *XXX.lic* 
-
-
-
-4. Modify the global gradle file **build.gradle** add jcenter() and identy maven repositories with your username and password provided by the [identy.io](https://identy.io/).
-
-5. Add application memory setting on **gradle.properties** file insert code
+4. Add application memory setting on **gradle.properties** file insert code
 ```
 org.gradle.jvmargs=-Xmx1536m
-```
+```![gradleProperties](https://user-images.githubusercontent.com/19475836/156916775-33cde607-83ca-4855-8e5e-f55796d491d1.PNG)
 
 ## Supported Platforms
 - Android
@@ -45,7 +41,6 @@ import { getFingerprint } from "react-native-identy-module";
 
 const data = await getFingerprint();
 ```
-
 
 ## License
 
