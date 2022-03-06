@@ -14,6 +14,7 @@ npm install react-native-identy-module
 
 ## Instructions
 For the package to work in your application, Kindly follow the below instructions
+
 __instructions for android only__
 
 1. First, you need to register on [identy.io](https://identy.io/) website and acquire license file *XXX.lic*
